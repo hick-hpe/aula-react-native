@@ -7,6 +7,8 @@ Neste projeto, será ensinado como configurar o projeto com navegação entre te
 ### Criar projeto
 Crie um projeto:
 ```bash
+npx create-expo-app@latest meuApp -t
+# ou
 npx create-expo-app meuApp -t
 ```
 
@@ -103,5 +105,18 @@ npx expo start --clear
 ```
 
 ## Estrutura do app
+Para o `Expo` conseguir executar sua aplicação, precisa existir uma pasta chamada `app` no seu projeto.
 
+```
+meuApp/
+├── app
+│   ├── index.tsx
 
+# ou
+
+meuApp/
+├── src
+│   ├── app
+│   │   ├── index.tsx
+
+```
