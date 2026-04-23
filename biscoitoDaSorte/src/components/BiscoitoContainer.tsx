@@ -75,7 +75,7 @@ export class BiscoitoContainer extends Component<BiscoitoProps, State> {
                 <Image
                     source={
                         // exibir a imagem do biscoito aberto ou fechado com base no estado do biscoito
-                        this.props.aberto
+                        aberto
                             ? require(imgAberto)
                             : require(imgFechado)
                     }
